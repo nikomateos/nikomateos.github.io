@@ -13,9 +13,9 @@ theme_settings:
 
   # Header and footer text
   header_text: >
-     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-
-     <p>Remove all header text in <code>_config.yml</code> to disable this feature.</p>
+    <p>"Por fin he entendido lo que significa 'upward compatible' (compatible hacia arriba). Significa que mantenemos todos nuestros viejos errores"</p>
+    <br>
+    <i>Dennie van Tassel</i>
   header_text_feature_image: assets/img/pexels/triangular.jpeg
   #footer_text:
 
