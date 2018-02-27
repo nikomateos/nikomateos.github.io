@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Sonar Lint - Buenas prácticas
+title: Sonar Lint - Good Practices
 feature-img: "assets/img/pexels/computer.jpeg"
 tags: [Coding, Javier Cazallas]
 avatar: "assets/img/users/jcazallas.png"
