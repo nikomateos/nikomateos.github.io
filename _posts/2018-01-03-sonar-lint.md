@@ -17,8 +17,6 @@ Here is where Sonar Lint comes in:
 >to the user about the quality code
 
 <br>
-En muchas ocasiones, Sonar Lint puede dar falsos positivos ya que en ocasiones las reglas que comprueba no son aplicables al caso en cuestión. Por eso, es importante saber interpretar la información que devuelve.
-
 A lot of the times, SonarLint can give us false positives due do sometimes the rules that check aren't applied in that case. For that reason it's important to know how to interpret the information that is returned.
 
 <br>
