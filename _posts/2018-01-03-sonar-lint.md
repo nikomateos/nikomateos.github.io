@@ -6,32 +6,40 @@ tags: [Coding, Javier Cazallas]
 avatar: "assets/img/users/jcazallas.png"
 ---
 
-## Nuestro equipo se toma muy en serio la calidad del código que produce y para ello, un buen método es realizar una inspección continua y constante de nuestro código.
-Hay que tener en cuenta que casi el 70% del esfuerzo invertido durante el tiempo de vida de un producto se destina a mantenimiento. Y el mantenimiento es significativamente más simple y rápido si se realiza sobre un buen código.
+## Our team takes it very seriosly the quality of the produced code and for that, a good method to perform a constant inspection of our code.
+
+You have to bear in mind thtat almost 70% of our effort spent during the cycle life of our product is to maintain. And maintenance is significatively more simple and faster if it's performed over a good code.
 <br>
 
-Aquí es donde entra Sonar Lint:
+Here is where Sonar Lint comes in:
 <br>
->SonarLint es una herramienta que proporciona
->información al usuario sobre la calidad del código
+>SonarLint is a tool that provides an information 
+>to the user about the quality code
 
 <br>
 En muchas ocasiones, Sonar Lint puede dar falsos positivos ya que en ocasiones las reglas que comprueba no son aplicables al caso en cuestión. Por eso, es importante saber interpretar la información que devuelve.
 
-<br>
-Para generar un código que cumpla nuestras normas de aceptación es imperativo que no contenga ninguno de los fallos más comunes:
+A lot of the times, SonarLint can give us false positives due do sometimes the rules that check aren't applied in that case. For that reason it's important to know how to interpret the information that is returned.
 
-* Variables should not be used: Cuando se han definido variables pero no se están usando.
-* Control structures should use curly braces: Cuando no se añaden llaves a las estructuras de control.
-* Names should comply with a naming convention: Los nombres de las constantes deben ir en mayúsculas, los nombres de las clases deben de comenzar en mayúscula, los nombre de las variables deben seguir el estilo camelCase, ...
-* Cognitive Complexity should not be too high: Las funciones/métodos no deben superar un número de líneas. El código espagueti es indicativo de que hay que refactorizar.
+<br>
+To generate a code that acomplish our aceptance rules is imperative that this code doesn't contain any common faults:
+
+* Variables should not be used: When variables are defined but aren't in use.
+* Control structures should use curly braces: When the braces aren't added to the control structure.
+
+* Names should comply with a naming convention: Constant names must be in uppercase, class names must start in capital letters and variable names must follow the camelcase style.
+
+* Cognitive Complexity should not be too high: Functions and methods musn't reach a number of lines. The "SPAGUETTI CODE" is a sign that it has to be refactorized. 
+
 * Functions should not contain too many return statements
-* Local variables should not be declared and then immediately returned or thrown
-* El estilo del código generado debe seguir el estándar PSR-2
+
+* Local variables should not be declared and then immediately returned or thrown.
+
+* Code style generated must follow PSR-2 standard.
 
 <br>
 
-Enlaces de interés:
+Interesting links:
 <br>
 
 [Sonar Lint Official WebPage](https://www.sonarlint.org/)
